@@ -1,0 +1,22 @@
+{
+  "setup": {
+    "host": "boron-admin",
+    "rsync_sudo_mode": false,
+    "rsync_file_flags": "-a --progress --partial",
+    "rsync_dir_flags": "-a --progress --partial"
+  },
+  "items": [
+    {
+      "name": "telegraf",
+      "directories": [
+        "/etc/telegraf"
+      ]
+    },
+    {
+      "name": "plex",
+      "files": [
+        "/var/lib/plexmediaserver/Library/Application Support/Plex Media Server/Preferences.xml"
+      ]
+    }
+  ]
+}
