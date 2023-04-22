@@ -6,6 +6,7 @@ from .log import BackupLogger
 
 RSYNC_COMMAND = 'rsync'
 SUDO_MODE_FLAG = '--rsync-path="sudo rsync"'
+
 DEFAULT_OUTPUT_LOCATION = './output/'
 DEFAULT_RSYNC_FILE_FLAGS = '-a --progress --partial'
 DEFAULT_RSYNC_DIR_FLAGS = '-a --progress --partial'
