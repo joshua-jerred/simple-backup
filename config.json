@@ -1,6 +1,6 @@
 {
   "setup": {
-    "host": "boron-admin",
+    "host": "user@host",
     "rsync_sudo_mode": false,
     "rsync_file_flags": "-a --progress --partial",
     "rsync_dir_flags": "-a --progress --partial"
