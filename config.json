@@ -8,6 +8,9 @@
   "items": [
     {
       "name": "telegraf",
+      "files": [
+        "/etc/telegraf/telegraf.conf"
+      ],
       "directories": [
         "/etc/telegraf"
       ]
