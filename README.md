@@ -11,7 +11,7 @@ output directory with each 'item' in the JSON file being in its own
 subdirectory.
 
 ## Example Config
-```json
+```jsonc
 {
   "setup": {
     "host": "user@host",
@@ -41,7 +41,7 @@ subdirectory.
 ```
 
 ## Bare Minimum Config
-```json
+```jsonc
 {
   "setup": {
     "host": "user@host"
